@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Diseñador2</title>
+    <link href="css/estilos.css" rel="stylesheet" type="text/css" />
+
+    <script src="js/scripts.js"></script>
+  </head>
+  <body>
+    <h1>Proyecto empresarial master</h1>
+    <h1>Proyecto empresarial Diseñador2</h1>
+    <p>Párrafo agregado desde Github, otra vez, otra más</p>
+    <p>Ya pasamos a utilizar VSCode en el CursoGit</p>
+    <p>probando cambios en el Index</p>
+
+    <p>*** a ver vamos a hacer una prueba con este cambio estando en la Rama1 ***</p>
+
+    <input type="button" onclick="saludo()" value="Dale" />
+  </body>
+</html>
+
+<!--   shift + alt + F    para dar formato al documento
+
+    git init                                                  (inicia el proyecto)
+    git status -s                                             (checa el estado de los archivos)
+    git add Index.html                (agrega al staying area, prepara el archivo para despues hacer el commit)
+    git commit -m "comienzo del proyecto"                     (hace el commit, respaldo y agrega mensaje)
+    git config --global user.email "tona_mtz@outlook.com"     (configura el email de usuario)
+    git config --global user.name "Tona"                      (configura el nombre de usuario) 
+    git log --oneline                                      (te muestra el historial de commits que se han hecho)
+    git reset --hard 22fb269            (nos regresa en el tiempo a un determinado commit, se pierden los demás)
+    
+    git add .       (agrega todos los archivos del proyecto al staying area, para que git les haga seguimiento)
+    git commit -am "un mensaje"   (para agregar el archivo y hacer commit con mensaje al mismo tiempo)
+    git commit --amend     (abre el editor VIM para modificar algun comentario de un commit con el comando :i  :wq(para guardar y salir))
+    
+    *para subir el proyecto a nuestro propio repositorio de GIT, primero abrir una cuenta en GITHUB
+    
+    git remote add origin https://github.com/TonaMtz/CursoGit
+    git remote add origin https://github.com/TonaMar/CursoGit.git  (para subir lo que tenemos en local al repositorio GitHub)
+    
+    git push origin master    (para que saliera la venatna de inicio de sesión)
+    git push -u origin master  (para ir actualizando, subiendo las moficicaciones a GIT)
+    git pull   (para descargar en local cambios que se hayan hecho en el repositorio de GitHub)
+
+    *******************       11082021GitHub     TonaMar    tona_mtz@outlook.com       +++++++++
+
+    git config --get remote.origin.url   (copiar y pegar en git, les aparece el link del repositorio)
+    git tag 26-08-21v1 -m "Version 1 del proyecto"   (para poner versiones a los proyectos)
+    git push --tags                                  (para subir las tags al repositorio)
+
+    git clone https://github.com/TonaMar/CursoGit.git  (en caso de perder el proyecto localmente, hay que clonar el proyecto en algún directorio, dando 
+                                                        clic derecho y en "Git Bash Here" para que abra la consola y ejecutar el comando)
+
+    para crear  un nuevo repositorio en GIT, damos clic en el simbolo de "+" en new repository, le damos un nombre, le damos en el boton "crear repositorio"
+    copiamos la URL del reposotorio nuevo, luego abrimos VSC y en la pestaña View, en command palette, escribimos "git clone" e introducimos la URL del repositorio
+    especificamos el directorio en donde se guardará el proyecto.
+
+    git branch nombreDeLaNuevaRma       (crea una nueva rama)1
+    git branch                          (muestra que ramas hay y en cual estamos trabajando actualmente)
+    git checkout nombreDeLaRama         (para cambiarnos de rama de trabajo especificar el nombre de la rama en la que queramos trabajar)
+
+    LOS MERGE siempre se hacen en la rama MASTER
+
+    git merge nombreDeLaRama              (se hará el merge desde master con la rama idicada)
+    git reset --hard   Codigo_del_commit         (para revertir un Merge, regresando al commit anterior)
+    git branch -d   Nombre_de_la_rama_a_borrar    (para borrar la rama)
+
+-->
