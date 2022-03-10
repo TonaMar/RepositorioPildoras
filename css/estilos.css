@@ -3,8 +3,14 @@
 
 
 body{
-    background-color: rebeccapurple;
+    /* background-color: rebeccapurple; */
+    background-image: images/1655045.jpg;
     font-size: 20px;
     font-style: oblique;
     color:springgreen;
+}
+
+#saludo{
+   text-align: center;
+   text-decoration: line-through;
 }
