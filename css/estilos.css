@@ -1,10 +1,15 @@
 @charset "utf-8";
 /*CSS Document*/
-
+h1{
+    text-align: center;
+    text-decoration: solid;
+    color: red;
+}
 
 body{
     /* background-color: rebeccapurple; */
-    background-image: images/1655045.jpg;
+    background-image: URL(/images/1655045.jpg);
+    background-size: 100%;
     font-size: 20px;
     font-style: oblique;
     color:springgreen;
@@ -12,5 +17,5 @@ body{
 
 #saludo{
    text-align: center;
-   text-decoration: line-through;
+   text-decoration: dashed;
 }
